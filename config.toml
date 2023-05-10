@@ -11,6 +11,10 @@ enableEmoji = true
 [markup.highlight]
 style = "github-dark"
 
+[markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+
 [params]
 author = "Abhipray Sahoo"
 info = "Engineer@Apple"

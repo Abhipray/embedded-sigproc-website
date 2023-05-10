@@ -60,7 +60,13 @@ $$y_{n} = a_{n1}x_{1} + \cdots +a_{nn}x_{n} + b_n$$
 
 We stack up the $y_{i}$s into a list and call it the $y$ vector. And replace the coefficients with a matrix $A$:
 
-$$\begin{bmatrix} a_{11} & \cdots & a_{1n} \\ \vdots & \ddots & \vdots \\ a_{n1} & \cdots & a_{nn} \end{bmatrix}$$
+$$
+\begin{bmatrix}
+a_{11} & \cdots & a_{1n} \\\\
+\vdots & \ddots & \vdots \\\\
+a_{n1} & \cdots & a_{nn} \\\\
+\end{bmatrix}
+$$
 
 A system of equations is thus $y = Ax + b$. 
 

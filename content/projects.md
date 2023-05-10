@@ -14,7 +14,6 @@ I became deeply interested in biological neural networks during my time at Stanf
 1. % LMS: A stochastic gradient algorithm inspired by neurobiology
 
 Stanford CS229
-<!-- [paper link]( {{< ref "/posts/ee_masters/CS236_AudioSuperResolution_2019_Nov.pdf" >}}) -->
 poster link
 
 2. Audio Super Resolution using WaveGlow (normalizing flow model)

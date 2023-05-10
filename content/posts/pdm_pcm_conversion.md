@@ -2,7 +2,6 @@
 +++ 
 date = "2018-10-24"
 title = "PDM-PCM conversion & PDM's connection to neurons"
-markup = "mmark"
 +++
 
 # Background
@@ -218,8 +217,8 @@ plot_periodogram(quant_noise, fs*L)
 ![png](pdm_pcm_conversion_21_0.png)
 
 
-Since our audio signal is limited to only 8KHz (for 16KHz sample rate), we want the quantization noise to have low power in those frequencies. How this is achieved in practice is by adding a feedback loop on the ADC path detailed [here](https://dsp-nbsphinx.readthedocs.io/en/nbsphinx-experiment/quantization/noise_shaping.html). We can use the  system described in the image:
-![noise shaping](https://dsp-nbsphinx.readthedocs.io/en/nbsphinx-experiment/_images/noise_shaping.png)
+Since our audio signal is limited to only 8KHz (for 16KHz sample rate), we want the quantization noise to have low power in those frequencies. How this is achieved in practice is by adding a feedback loop on the ADC path detailed [here](https://github.com/spatialaudio/digital-signal-processing-lecture/blob/2d503e8ff8788f334a6dccaa79761f79b543111f//quantization/noise_shaping.ipynb). We can use the system described in the image:
+![noise shaping](https://raw.githubusercontent.com/spatialaudio/digital-signal-processing-lecture/2d503e8ff8788f334a6dccaa79761f79b543111f/quantization/noise_shaping.png)
 
 Q is the quantizer block. From the diagram,
 $x_Q[k] = \mathcal{Q} \{ x[k] - e[k] * h[k] \} = x[k] + e[k] - e[k] * h[k]$

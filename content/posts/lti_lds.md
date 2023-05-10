@@ -1,7 +1,6 @@
 +++ 
 date = "2019-09-07"
 title = "What is the state of a system? Linear Time-Invariant Systems (LTI) vs Linear Dynamical Systems (LDS)"
-markup = "mmark"
 +++
 
 #### Suggested reading: [On linearity]({{< ref "/posts/linearity" >}})
@@ -41,7 +40,7 @@ What about systems that depend on past outputs (systems with feedback)? It turns
 
 ![IIR](http://controlsystemsacademy.com/0028/impulseresponse.png "Comparing IIR and FIR systems")
 
-Thus, we can characterize an LTI system using the impulse response and convolution operation. It's pretty cool to think about the fact that you can understand the full behavior of an LTI system simply by stimulating it with an impulse. For example, a common application is in characterizing the acoustics of a room. We can model the room as an LTI system i.e something that scales and delays signals coming from a sound source and into a microphone; then we can play a loud impulse sound out of a speaker that lasts a short duration and record the impulse response with a microphone. Using the impulse response characterization of the room, we can now construct an inverse filter (an impulse response that when convolved with the room impulse response results in $1$) that counters the effects of the room. 
+Thus, we can characterize an LTI system using the impulse response and convolution operation. It's pretty cool to think about the fact that you can understand the full behavior of an LTI system simply by stimulating it with an impulse. For example, a common application is in characterizing the acoustics of a room. We can model the room as an LTI system i.e something that scales and delays signals coming from a sound source and into a microphone; then we can play a loud impulse sound out of a speaker that lasts a short duration and record the impulse response with a microphone. Using the impulse response characterization of the room, we can now construct an inverse filter (an impulse response that when convolved with the room impulse response results in value of $1$) that counters the effects of the room. 
 
 
 ### Transfer function
@@ -122,7 +121,7 @@ $$y[n] = b_0u[n]+b_1u[n-1]+...+b_ku[n-k]$$
 
 The "state" of an FIR system is its memory-- it is a vector that stores the last $N$ input samples where $N$ is the memory size/filter length/impulse reponse length. If you implement the above equation in a programming language like C, you would use a FIFO queue to maintain the state of the system. Think of the equation below as just that-- at every timestep, pop the last Nth value from the queue and push the current value on top.
 
-$$x(k) = \begin{bmatrix} u[k-1] \\ u[k-2] \\ \vdots \\ u[k-N] \end{bmatrix}$$
+$$x(k) = \begin{bmatrix} u[k-1] \\\\ u[k-2] \\\\ \vdots \\\\ u[k-N] \end{bmatrix}$$
 
 The LDS state evolution equation is:
 
@@ -131,22 +130,22 @@ $$x(k+1) = Ax(k) + Bu(k)$$
 $$
 A = 
 \begin{bmatrix}
-0 & 0 & 0 & 0 & \cdots \\
-1 & 0 & 0 & & \cdots \\
-0 & 1 & 0 & 0 & \cdots \\
-0 & 0 & 1 & 0 & \cdots \\
-\vdots &  \vdots &  \vdots &  \vdots & \ddots \\
-0 & 0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 0 & \cdots \\\\
+1 & 0 & 0 & & \cdots \\\\
+0 & 1 & 0 & 0 & \cdots \\\\
+0 & 0 & 1 & 0 & \cdots \\\\
+\vdots &  \vdots &  \vdots &  \vdots & \ddots \\\\
+0 & 0 & 0 & 1 & 0 \\\\
 \end{bmatrix}
 $$
 
 $$
 B = 
-\begin{bmatrix}  
-1 \\
-0 \\
-0 \\
-\vdots
+\begin{bmatrix}
+1 \\\\
+0 \\\\
+0 \\\\
+\vdots \\\\
 \end{bmatrix}
 $$
 
@@ -156,12 +155,14 @@ The output is simply:
 
 $$y(k) = Cx(k) + Du(k)$$
 
-$$C = \begin{bmatrix}
-b_1 \\
-b_2 \\
-\vdots \\ 
+$$
+C = \begin{bmatrix}
+b_1 \\\\
+b_2 \\\\
+\vdots \\\\
 b_n
-\end{bmatrix}$$
+\end{bmatrix}
+$$
 
 $$ D = b_0 $$
 
@@ -192,22 +193,27 @@ In vector form,
 $$x(k+1) = Ax(k) + Bu(k)$$
 
 
-$$A = \begin{bmatrix}  
--a_1 & -a_2 & \cdots & -a_{N-1} & -a_N \\
-1 & 0 & 0 & 0 & \cdots \\
-0 & 1 & 0 & 0 & \cdots \\
-0 & 0 & 1 & 0 & \cdots \\
-\vdots &  \vdots &  \vdots &  \vdots & \ddots \\
+$$
+A = 
+\begin{bmatrix}
+-a_1 & -a_2 & \cdots & -a_{N-1} & -a_N \\\\
+1 & 0 & 0 & 0 & \cdots \\\\
+0 & 1 & 0 & 0 & \cdots \\\\
+0 & 0 & 1 & 0 & \cdots \\\\
+\vdots &  \vdots &  \vdots &  \vdots & \ddots \\\\
 0 & 0 & 0 & 1 & 0
-\end{bmatrix}$$
+\end{bmatrix}
+$$
 
 
-$$B = \begin{bmatrix}  
-1 \\
-0 \\
-0 \\
-\vdots
-\end{bmatrix}$$
+$$
+B = \begin{bmatrix}
+1 \\\\
+0 \\\\
+0 \\\\
+\vdots \\\\
+\end{bmatrix}
+$$
 
 To derive the output from the state vector and the current input, we first want to factorize out the $b_0$ term in the transfer function since that's our feedthrough, $D$ matrix.
 
@@ -220,12 +226,14 @@ Now,
 
 $$y(k) = Cx(k) + Du(k)$$
 
-$$C = \begin{bmatrix}   
-(b_1-b_0a_1) \\
-(b_2-b_0a_2) \\
-\vdots \\ 
+$$
+C = \begin{bmatrix}
+(b_1-b_0a_1) \\\\
+(b_2-b_0a_2) \\\\
+\vdots \\\\ 
 (b_n-b_0a_n)
-\end{bmatrix}$$
+\end{bmatrix}
+$$
 
 $$ D = b_0 $$
 
@@ -241,7 +249,7 @@ Let's derive the transfer function in terms of the LDS parameters, $A, B, C, D$.
 
 The z-transform of a time advanced signal is:
 
-$$X(z) = \sum_{k=0}^{\infty} x(k+1)z^{-k} \\ = z\sum_{k=1}^{\infty} x(k)z^{-k} \\ = zX(z)-zx(0)$$
+$$X(z) = \sum_{k=0}^{\infty} x(k+1)z^{-k} \\\\ = z\sum_{k=1}^{\infty} x(k)z^{-k} \\\\ = zX(z)-zx(0)$$
 
 Our LDS state-space equations are,
 
