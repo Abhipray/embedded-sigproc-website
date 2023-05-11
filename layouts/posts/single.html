@@ -29,6 +29,9 @@
           {{ with .GetTerms "categories" }}{{ partial "taxonomy/categories.html" . }}{{ end }}
           {{ with .GetTerms "tags" }}{{ partial "taxonomy/tags.html" . }}{{ end }}
         </div>
+        <aside>
+          {{ .TableOfContents }}
+        </aside>
       </header>
 
       <div class="post-content">
