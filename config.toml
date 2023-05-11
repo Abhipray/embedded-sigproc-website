@@ -5,8 +5,6 @@ languageCode = "en"
 defaultContentLanguage = "en"
 paginate = 20
 enableEmoji = true
-# Enable Disqus comments
-# disqusShortname = "yourdiscussshortname"
 
 [markup.highlight]
 style = "github-dark"
@@ -49,6 +47,9 @@ customJS = []
 
 # Custom remote JS files
 customRemoteJS = []
+
+googleAnalytics = 'G-366871225'
+disqusShortname = "embedded-sigproc"
 
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
 # [params.fathomAnalytics]
