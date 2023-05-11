@@ -7,7 +7,7 @@ slug = "research"
 
 1. [Cybernetics 2.0](https://link.springer.com/book/10.1007/978-3-030-98140-2)
 
-I became deeply interested in biological neural networks during my time at Stanford. I stumbled upon active research on the topic being performed by [Dr. Bernard Widrow](https://profiles.stanford.edu/bernard-widrow) during his course on Adaptive Signal processing. For three years, I partnered with him to develop neural networks with local learning rules inspired by homeostatic regulation. All ideas in the book originated from Dr. Widrow. I assisted him by running computer simulations, performing literature reviews, and ultimately transcribing his hand-written words into a book published by [Springer](https://link.springer.com/book/10.1007/978-3-030-98140-2). The book provides novel ideas on algorithmic ways of achieving homeostasis in various sytems including human neurons that induce "learning", bloog glucose regulation, and even plant growth.  
+I became deeply interested in biological neural networks during my time at Stanford. I stumbled upon active research on the topic being performed by [Dr. Bernard Widrow](https://profiles.stanford.edu/bernard-widrow) during his course on adaptive signal processing. For three years after the course, I partnered with him to develop neural networks with local learning rules inspired by homeostatic regulation of firing rate. The algorithms extended to other homeostatic systems such as thermoregulation, blood pressure, and even plant growth. Dr. Widrow came up with his ideas and we discussed them in great depth at his residence or the faculty club. I assisted him by running computer simulations, performing literature reviews, and ultimately transcribing his hand-written words into a book published by [Springer](https://link.springer.com/book/10.1007/978-3-030-98140-2).
 
 ## Papers and reports
 
@@ -15,7 +15,7 @@ I became deeply interested in biological neural networks during my time at Stanf
 
     2019 | Stanford CS229 | [paper link](/posts/ee_masters/__LMS_CS229_paper.pdf) | [poster link](/posts/ee_masters/CS229_Poster.pdf)
 
-1. Audio Bandwidth Extension using a normalizing flow model (WaveGlow)
+1. Audio bandwidth extension using a normalizing flow model (WaveGlow)
 
     2020 | Stanford CS236 | [paper link](/posts/ee_masters/CS236_AudioSuperResolution_2019_Nov.pdf)
 
@@ -27,7 +27,7 @@ I became deeply interested in biological neural networks during my time at Stanf
 
     2019 | Stanford EE373 | [github link](https://github.com/Abhipray/speech_denoising)
 
-1. Pyramid Vector Quantization for audio compression
+1. Pyramid vector quantization for audio compression
 
     2020 | Stanford EE376C | [paper link](/papers/ee_masters/Music_422_Project_Report.pdf) | [slidedeck link](/posts/ee_masters/Music_422_Project.pdf)
 
