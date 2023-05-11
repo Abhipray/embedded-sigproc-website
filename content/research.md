@@ -37,7 +37,7 @@ I became deeply interested in biological neural networks during my time at Stanf
 
 1. Audio-based gesture detection on the Neosensory Buzz wristband (Cortex M4)
 
-    2019 | Stanford EE292D | [paper link](/posts/ee_masters/EE292D_Final_Paper.pdf) | [video demo](https://www.youtube.com/watch?v=eto0syTwN0U) | [slidedeck link](/papers/EE292D_Slides.pptx)
+    2019 | Stanford EE292D | [paper link](/papers/EE292D_Final_Paper.pdf) | [video demo](https://www.youtube.com/watch?v=eto0syTwN0U) | [slidedeck link](/papers/EE292D_Slides.pptx)
 
 1. Tactile representations of image signals
 
