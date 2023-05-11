@@ -21,7 +21,7 @@ I became deeply interested in biological neural networks during my time at Stanf
 
 1. GRU Voice Activity Detector on ARM Cortex M4 using Tensorflow
 
-    2019 | Stanford CS230 | [paper link](/posts/ee_masters/CS230_Project_Report.pdf) | [poster link](/posts/ee_masters/CS229_Poster.pdf)
+    2019 | Stanford CS230 | [paper link](/posts/ee_masters/CS230_Project_Report.pdf) | [poster link](/posts/ee_masters/CS230_Poster.pdf)
 
 1. Speech denoising using adaptive filtering
 
@@ -29,7 +29,7 @@ I became deeply interested in biological neural networks during my time at Stanf
 
 1. Pyramid vector quantization for audio compression
 
-    2020 | Stanford EE376C | [paper link](/papers/ee_masters/Music_422_Project_Report.pdf) | [slidedeck link](/posts/ee_masters/Music_422_Project.pdf)
+    2020 | Stanford EE376C | [paper link](/posts/ee_masters/Music_422_Project_Report.pdf) | [slidedeck link](/posts/ee_masters/Music_422_Project.pdf)
 
 1. Mitigating catastrophic interference in multi-task learning
 
