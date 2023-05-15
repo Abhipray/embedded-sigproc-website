@@ -14,18 +14,18 @@ I learned about random signals and systems, a new layer of abstraction for me (o
 
 I took DSP as a summer course so it was accelerated. Through work experience, I had scratched the surface on several DSP topics and concepts such as FIR/IIR filtering, interpolation, downsampling etc. With this course, I got really satisfying explanations for why and how digital signals are manipulated. We had fun problem sets involving MATLAB implementations, for example implementing the adaptive noise cancellation algorithm of Apple airpods.
 
-**With the knowledge I gained from these first two courses, I wrote a [blog post]({{< ref "/posts/pdm_pcm_conversion" >}}) explaining how Pulse Density Modulation (PDM) works.**
+**With the knowledge I gained from these first two courses, I wrote a [blog post]({{< ref "/posts/sigproc/pdm_pcm_conversion" >}}) explaining how Pulse Density Modulation (PDM) works.**
 
 ## 3. Linear dynamical systems (Reza Nasiri)
 
-I wanted a more general understanding of how dynamical systems worked because I encountered them frequently in the literature. **It turned out that the familiar linear systems I was studying in my undergraduate EE classes were a special case of LDS systems. I wrote a blog post about this [here]({{< ref "/posts/linearity" >}}). The course also gave me a crash course in linear algebra leading to a [blog post]({{< ref "/posts/linearity" >}}) on the meaning of linearity.**
+I wanted a more general understanding of how dynamical systems worked because I encountered them frequently in the literature. **It turned out that the familiar linear systems I was studying in my undergraduate EE classes were a special case of LDS systems. I wrote a blog post about this [here]({{< ref "/posts/sigproc/lti_lds" >}}). The course also gave me a crash course in linear algebra leading to a [blog post]({{< ref "/posts/sigproc/linearity" >}}) on the meaning of linearity.**
 
 
 ## 4. Information theory (Tsachy Weissman)
 
 I had recently read the [Dover book](https://www.amazon.com/Introduction-Information-Theory-Symbols-Mathematics/dp/0486240614) on Information Theory and Claude Shannon's biography, "A Mind At Play". Both of these combined to get me pumped up for this class on the theory of 1s and 0s. We went over different aspects of a fascinating theory for how to abstractly represent and transmit information. It defined the notion of entropy, H as a measure of information in the units of bits. There are two major pieces-- source encoding and communication channel encoding. In source coding or compression, we want to eliminate redundancies to represent the message in as few number of bits as possible. In channel encoding, we typically want to introduce redundancies in order to make sure the receiver can decode correctly. Entropy gives limits on maximum possible compression rate as well as maximum possible rate of transmission through a channel.
 
-**For the project, my teammate Sakshi and I worked on finding good tactile representations for image signals.  I discovered a unique way of generating error correction codes called Gray codes and wrote a blog post on it. Tsachy had all the teams present their projects at an elementary school across from Stanford. [Here]({{< ref "/posts/tactile_vision" >}}) are more details on our project.**
+**For the project, my teammate Sakshi and I worked on finding good tactile representations for image signals.  I discovered a unique way of generating error correction codes called Gray codes and wrote a blog post on it. Tsachy had all the teams present their projects at an elementary school across from Stanford. [Here]({{< ref "/posts/sigproc/tactile_vision" >}}) are more details on our project.**
 
 
 ## 5. Adaptive signal processing (Bernard Widrow)
