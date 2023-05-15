@@ -3,7 +3,7 @@ date = "2019-09-07"
 title = "What is the state of a system? Linear Time-Invariant Systems (LTI) vs Linear Dynamical Systems (LDS)"
 +++
 
-__Suggested reading: [On linearity]({{< ref "/posts/linearity" >}})__
+__Suggested reading: [On linearity]({{< ref "/posts/sigproc/linearity" >}})__
 
 It is often easier to understand a concept if it can be connected to some other familiar concept. Like most electrical engineers, I was introduced to Linear Time-Invariant systems/filters in the framework of analyzing electrical signals and circuits. I recently took a class on linear dynamical systems which generalizes the notion of LTI systems using state-space. In this set of notes, I want to make the connection between LTI systems and Linear Dynamical Systems (LDS). I will focus on only discrete-time systems.
 
