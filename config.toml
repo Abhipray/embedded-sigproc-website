@@ -5,7 +5,7 @@ languageCode = "en"
 defaultContentLanguage = "en"
 paginate = 20
 enableEmoji = true
-googleAnalytics = 'G-366871225'
+googleAnalytics = 'G-9QE6HBQW5Z'
 disqusShortname = "embedded-sigproc"
 
 [markup.highlight]
