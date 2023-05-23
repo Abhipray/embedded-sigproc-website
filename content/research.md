@@ -13,15 +13,15 @@ I became deeply interested in biological neural networks during my time at Stanf
 
 1. % LMS: A stochastic gradient algorithm inspired by neurobiology
 
-    2019 | Stanford CS229 | [paper link](/posts/ee_masters/__LMS_CS229_paper.pdf) | [poster link](/posts/ee_masters/CS229_Poster.pdf)
+    2019 | Stanford CS229 | [paper link](/posts/sigproc/ee_masters/__LMS_CS229_paper.pdf) | [poster link](/posts/sigproc/ee_masters/CS229_Poster.pdf)
 
 1. Audio bandwidth extension using a normalizing flow model (WaveGlow)
 
-    2020 | Stanford CS236 | [paper link](/posts/ee_masters/CS236_AudioSuperResolution_2019_Nov.pdf)
+    2020 | Stanford CS236 | [paper link](/posts/sigproc/ee_masters/CS236_AudioSuperResolution_2019_Nov.pdf)
 
 1. GRU Voice Activity Detector on ARM Cortex M4 using Tensorflow
 
-    2019 | Stanford CS230 | [paper link](/posts/ee_masters/CS230_Project_Report.pdf) | [poster link](/posts/ee_masters/CS230_Poster.pdf)
+    2019 | Stanford CS230 | [paper link](/posts/sigproc/ee_masters/CS230_Project_Report.pdf) | [poster link](/posts/sigproc/ee_masters/CS230_Poster.pdf)
 
 1. Speech denoising using adaptive filtering
 
@@ -29,11 +29,11 @@ I became deeply interested in biological neural networks during my time at Stanf
 
 1. Pyramid vector quantization for audio compression
 
-    2020 | Stanford EE376C | [paper link](/posts/ee_masters/Music_422_Project_Report.pdf) | [slidedeck link](/posts/ee_masters/Music_422_Project.pdf)
+    2020 | Stanford EE376C | [paper link](/posts/sigproc/ee_masters/Music_422_Project_Report.pdf) | [slidedeck link](/posts/sigproc/ee_masters/Music_422_Project.pdf)
 
 1. Mitigating catastrophic interference in multi-task learning
 
-    2020 | Stanford CS376C | [paper link](/posts/ee_masters/CS376C_Hebbian_report.pdf)
+    2020 | Stanford CS376C | [paper link](/posts/sigproc/ee_masters/CS376C_Hebbian_report.pdf)
 
 1. Audio-based gesture detection on the Neosensory Buzz wristband (Cortex M4)
 
