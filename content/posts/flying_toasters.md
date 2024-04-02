@@ -39,7 +39,7 @@ Here are some specific challenges I overcame during the development process:
 
 - Portal Gestures: Apple's [example code](https://developer.apple.com/documentation/realitykit/transforming-realitykit-entities-with-gestures?changes=_8) was key for implementing intuitive scaling and rotation gestures for the portals.
 
-- Toaster Physics vs. Animation: I found out the hard way that RealityKit's physics engine and strict animation paths (using FromToByAnimation()) don't always play nicely together. My chaotic collision solution? Random launch points with a minimum distance constraint, random [cubic-bezier](https://cubic-bezier.com) curve paths, and plenty of linear/angular damping on those toasters.
+- Toaster Physics vs. Animation: I found out the hard way that RealityKit's physics engine and strict animation paths (using FromToByAnimation()) don't always play nicely together. My chaotic collision solution? Random launch points with a minimum distance constraint, random [cubic-bezier](https://cubic-bezier.com) curve paths, and plenty of linear/angular damping on those toasters. If the toasters' movements are still subjectively chaotic, the user can opt out of collisions by turning on ghost mode.
 
 - Head Tracking: I wanted the toasters' whimsical phrases to appear in speech bubbles that always faced the user. RealityKit doesn't directly track head position, but I adapted a clever [ARKit workaround](https://stackoverflow.com/questions/77577395/how-to-know-users-position-in-surrounding-space-in-visionos/77616297#77616297) to achieve this.
 
