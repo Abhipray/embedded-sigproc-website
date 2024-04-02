@@ -43,4 +43,6 @@ Here are some specific challenges I overcame during the development process:
 
 - Head Tracking: I wanted the toasters' whimsical phrases to appear in speech bubbles that always faced the user. RealityKit doesn't directly track head position, but I adapted a clever [ARKit workaround](https://stackoverflow.com/questions/77577395/how-to-know-users-position-in-surrounding-space-in-visionos/77616297#77616297) to achieve this.
 
-This project was a blast! If you have an AVP and end up seeing the flying toasters in action, please let me know what you think!
+## The future
+
+This project was a blast! If you have an AVP and end up seeing the flying toasters in action, please let me know what you think! Just as the original Flying Toasters screensaver evolved over a decade (see [the YouTube playlist here](https://www.youtube.com/watch?v=Ft5DIBAvXIU&list=PLxRwNKfqQOI1_pp6Cp4p1MnpCsoqCx2cK&index=2)), I anticipate if there is enough interest and feedback, I will improve the experience. So do share feedback!
