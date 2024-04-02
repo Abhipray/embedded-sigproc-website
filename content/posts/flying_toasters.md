@@ -1,6 +1,6 @@
 +++
 date = "2024-04-01"
-title = "Developing Flying Toasters for the Apple Vision Pro: A 0 to 1 Journey"
+title = "Developing Flying Toasters, a Screen Saver for the Apple Vision Pro: A 0 to 1 Journey"
 markup = "mmark"
 +++
 
