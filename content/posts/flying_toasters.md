@@ -4,7 +4,7 @@ title = "Developing Flying Toasters, a Screen Saver for the Apple Vision Pro: A 
 markup = "mmark"
 +++
 
-I recently decided to make an app for the Apple Vision Pro (AVP) during a two-week break between jobs. I wanted to explore its potential and learn some new skills. My day job primarily involves low-level firmware; I hadn't built a user-facing app in a while–my last iOS app experience was back in high school in 2011! This was a chance to see how app development has evolved in 2024, especially with modern code generation tools.
+I recently decided to make an [app for the Apple Vision Pro (AVP)](http://apps.apple.com/us/app/flying-toasters/id6479964879) during a two-week break between jobs. I wanted to explore its potential and learn some new skills. My day job primarily involves low-level firmware; I hadn't built a user-facing app in a while–my last iOS app experience was back in high school in 2011! This was a chance to see how app development has evolved in 2024, especially with modern code generation tools.
 
 ## Inspiration and the "Screensaver" Idea
 
